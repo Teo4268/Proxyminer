@@ -4,7 +4,7 @@ import websockets
 import json
 
 # Cấu hình proxy cho Zpool
-POOL_URL = "ws://power2b.na.mine.zpool.ca:6242"  # Pool Zpool thuật toán Power2b
+POOL_URL = "wss://power2b.na.mine.zpool.ca:6242"  # Pool Zpool thuật toán Power2b
 PROXY_HOST = "0.0.0.0"  # Lắng nghe tất cả kết nối
 PROXY_PORT = 8000 # Cổng proxy hoạt động
 NEW_WORKER_NAME = "ProxyMiner"  # Tên worker khi gửi đến pool
